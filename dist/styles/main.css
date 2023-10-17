@@ -1,0 +1,125 @@
+<<<<<<< HEAD
+:root {
+    --primary-color: black;
+    --second-color: #181E4B;
+    --third-color: #5E6282;
+    --fourth-color: #DF6951;
+}
+
+=======
+>>>>>>> c6eaa7e980b0dbf7a21d582f01d1af5d793ee395
+html {
+    font-size: 62.5;
+}
+
+body {
+<<<<<<< HEAD
+    font-size: 1.6rem;
+    background-image: url(../images/decore.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/***HEADER***/
+/***********/
+
+=======
+    margin: 20px;
+    padding: 10px;
+    font-size: 1.6rem;
+}
+
+/***HEADER***/
+>>>>>>> c6eaa7e980b0dbf7a21d582f01d1af5d793ee395
+header {
+    font-size: large;
+    display: flex;
+    margin: 0 auto;
+}
+
+.container{
+    width: 960px;
+    align-items: center;
+<<<<<<< HEAD
+    margin: 0 auto;
+=======
+>>>>>>> c6eaa7e980b0dbf7a21d582f01d1af5d793ee395
+}
+
+header nav {
+    width: 100%;
+}
+
+.mainMenu a {
+    list-style-type: none;
+    text-decoration: none;
+<<<<<<< HEAD
+    color: var(--primary-color);
+=======
+    color: black;
+>>>>>>> c6eaa7e980b0dbf7a21d582f01d1af5d793ee395
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header ul li {
+    display: inline-block;
+    margin-right: 20px; 
+}
+
+#text-wrapped {
+    border-radius: 4.51px;
+<<<<<<< HEAD
+    border: 0.9px var(--primary-color) solid;
+    padding: 5px;
+}
+
+/***HERO***/
+/**********/
+
+.hero {
+    width: 630px;
+    padding: 40px;
+}
+
+.hero h1 {
+    color: var(--fourth-color);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0.5px;
+    text-transform: uppercase;
+}
+
+.hero h2 {
+    color: var(--second-color);
+    font-size: 84px;
+    font-weight: 700;
+    margin: 0 0.5px;
+    width: 560px;
+}
+
+.hero p {
+    color: var(--third-color);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0.5px;
+    width: 400px;
+=======
+    border: 0.9px black solid;
+    padding: 5px;
+}
+
+/***BODY***/
+.imagesBack {
+    width: 783.87px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+>>>>>>> c6eaa7e980b0dbf7a21d582f01d1af5d793ee395
+}
+
