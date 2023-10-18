@@ -3,6 +3,7 @@
     --second-color: #181E4B;
     --third-color: #5E6282;
     --fourth-color: #DF6951;
+    --yellow-color : #F1A501; 
 }
 
 html {
@@ -13,9 +14,11 @@ body {
     font-size: 1.6rem;
     background-image: url(../images/decore.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right -130px;
+    margin: 0 auto;
+    display: block;
+    background-size: 600px;
 }
-
 
 /***HEADER***/
 header {
@@ -24,7 +27,7 @@ header {
     margin: 0 auto;
 }
 
-.container{
+.container {
     width: 960px;
     align-items: center;
     margin: 0 auto;
@@ -49,7 +52,7 @@ header ul {
 
 header ul li {
     display: inline-block;
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
 #text-wrapped {
@@ -64,6 +67,11 @@ header ul li {
 .hero {
     width: 630px;
     padding: 40px;
+    align-items: center;
+}
+
+.hero section {
+    width: 100%;
 }
 
 .hero h1 {
@@ -88,6 +96,20 @@ header ul li {
     font-weight: 500;
     margin: 0 0.5px;
     width: 400px;
-    border: 0.9px black solid;
     padding: 5px;
 }
+
+.girl {
+    width: 500px;
+    float: right;
+}
+
+.buttonFind {
+    border: 0.9px var(--yellow-color) solid;
+    border-radius: 10px;
+    box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
+    margin-top: 25px;
+    width: 100px;
+    height: 50px;
+}
+
